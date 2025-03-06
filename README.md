@@ -20,7 +20,7 @@ You can directly access the JSON file at:
 For programmatic access, use the raw GitHub URL:
 ```javascript
 // Example using fetch
-fetch('https://raw.githubusercontent.com/yourusername/minecraft-bedrock-versions/main/minecraft-bedrock-versions.json')
+fetch('https://raw.githubusercontent.com/WaypointStudios/minecraft-bedrock-versions/main/minecraft-bedrock-versions.json')
   .then(response => response.json())
   .then(data => {
     console.log('Available versions:', data.versions);
